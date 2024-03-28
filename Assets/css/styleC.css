@@ -1,0 +1,84 @@
+:root{
+    --color: #0D2930;
+    --color1: #ff7c02;
+    --color4: #ff0000;
+    --color7: #ffffff;
+}
+
+*{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    /* Color de la letra */
+    color: var(--color7);
+    /* PARA SACAR EL MALDITO PUNTO QUE ESTÁ A LA DERECHA */
+    /* list-style: none; */
+    
+    
+}
+
+.CajaMayor{
+    display: flex;
+    background-color: var(--color);
+    
+}
+
+.MenuColumna20{
+    /* ancho de la columna */
+    width: 20%;
+    background-color: var(--color);
+    padding-top: 10%;
+}
+
+.MenuMascotas80{
+    width: 75%;
+}
+
+p{
+    padding: 20px;
+}
+
+/* Contenedor de los botones, pero corresponde al orden de ellos no al diseño en si */
+.boton{
+    text-align: center;
+    padding: 15px 30px;
+    margin-bottom: 30px;
+}
+
+.boton2{
+    text-align: left;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+
+/* Ahori si corresponde al diseño de los botones */
+a{
+    color: var(--color7);
+    text-decoration: none;
+}
+
+.CajaSEC{
+    height: 14.6vh;
+    padding: 30px;
+}
+
+.caja1{
+    background-color: var(--color4);
+    padding: 124px;
+}
+
+.caja2{
+    background-color: var(--color1);
+    padding: 80px;
+    
+}
+
+/* Estilos de los botones principales */
+.boton {
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+/* Cambio de tono al pasar el ratón */
+.boton:hover {
+    background-color: #767575; /* Nuevo color de fondo cuando se pasa el ratón */
+}

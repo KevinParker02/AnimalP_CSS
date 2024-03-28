@@ -1,0 +1,81 @@
+:root{
+    --color: #0D2930;
+    --color2: #07bdea;
+    --color3: #ffdf01;
+    --color1: #ff7c02;
+    --color4: #ff0000;
+    --color5: #4f4f4f;
+    --color6: #b5b5b5;
+    --color7: #ffffff;
+}
+
+*{
+    /* Le quité los espacios en blanco */
+    margin: 0px;
+    padding: 0px;
+    /* Color de la letra 
+    color: var(--color7);*/
+
+    /* Le daré una fuente a la página */
+    font-family: sans-serif;
+
+    list-style: none
+}
+
+.Caja{
+    display: flex;
+    background-color: var(--color);
+}
+
+.Columna20{
+    width: 20%;
+    background-color: var(--color);
+    padding-top: 170px;
+}
+
+.Columna80{
+    width: 75%;
+    background-color: var(--color3);
+}
+
+a{
+    color: var(--color7);
+    text-decoration: none;
+}
+
+.boton{
+    text-align: center;
+    padding: 15px 30px;
+    margin-bottom: 30px;
+}
+
+.boton2{
+    text-align: left;
+    margin-top: 35px;
+    padding-left: 20px;
+}
+
+.Caja25{
+    height: 80vh;
+}
+
+.caja1{
+    display: flex;
+    margin-top: 12%;
+}
+
+.image{
+    width: 300px;
+    height: 300px;
+    margin-left: 230px;
+    border-radius: 20px;
+}
+
+.boton {
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+/* Cambio de tono al pasar el ratón */
+.boton:hover {
+    background-color: #767575; /* Nuevo color de fondo cuando se pasa el ratón */
+}

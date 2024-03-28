@@ -1,0 +1,90 @@
+:root{
+    --color: #0D2930;
+    --color2: #07bdea;
+    --color3: #ffdf01;
+    --color1: #ff7c02;
+    --color4: #ff0000;
+    --color5: #4f4f4f;
+    --color6: #b5b5b5;
+    --color7: #ffffff;
+}
+
+*{
+    /* Le quité los espacios en blanco */
+    margin: 0px;
+    padding: 0px;
+    /* Color de la letra */
+    color: var(--color7);
+
+    /* Le daré una fuente a la página */
+    font-family: sans-serif;
+    /* Fondo a la página */
+    
+
+}
+
+.Caja{
+    display: flex;
+    background-color: var(--color);
+}
+
+.Columna20{
+    /* Ancho del elemento */
+    width: 20%;
+    /* Usamos la variable colocando VAR después de los : */
+    background-color: var(--color);
+    /* Pone un espacio desde arriba hacia abajo. */
+    padding-top: 90px;
+}
+
+.Columna80{
+    /* Define el ancho del elemento, en este caso las Columnas dentro de esa variable (DEJA UN ESPACIO VERTICAL EN LA DERECHA)*/
+    width: 75%;
+}
+
+.boton{
+    text-align: center;
+    padding: 15px 30px;
+    margin-bottom: 30px;    
+}
+
+/* a Corresponde al contenedor de los enlaces */
+a{
+    color: var(--color7);
+    text-decoration: none;
+
+    text-align: center;
+    padding: 15px 30px;
+}
+
+.Caja25{
+    /* Le di un alargamiento al contenido de la página */
+    height: 14.6vh;
+    padding: 30px;
+}
+.caja1{
+    background-color: var(--color2);
+    padding: 30px;
+}
+.caja2{
+    background: var(--color3);
+    padding: 30px;
+}
+.caja3{
+    background-color: var(--color1);
+    padding: 30px;
+}
+.caja4{
+    background-color: var(--color4);
+    padding: 30px;
+}
+
+/* AQUÍ VA LA OPCIÓN DE LOS BOTONES LATERALES DE COLUMNA20 */
+.boton {
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+/* Cambio de tono al pasar el ratón */
+.boton:hover {
+    background-color: #767575; /* Nuevo color de fondo cuando se pasa el ratón */
+}
